@@ -11,4 +11,10 @@ public class KomputerMac implements Komputer{
     public void zepsujSie() {
         System.out.println("ni3 Dizłaaaa (┬┬﹏┬┬)");
     }
+
+    public KomputerMac(String procesor, String zasilacz, String plytaGlowna) {
+        this.procesor = procesor;
+        this.zasilacz = zasilacz;
+        this.plytaGlowna = plytaGlowna;
+    }
 }

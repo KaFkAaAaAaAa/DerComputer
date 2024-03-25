@@ -11,4 +11,10 @@ public class KomputerWindows implements Komputer{
     public void zepsujSie() {
         System.out.println("nie dizala");
     }
+
+    public KomputerWindows(String procesor, String zasilacz, String plytaGlowna) {
+        this.procesor = procesor;
+        this.zasilacz = zasilacz;
+        this.plytaGlowna = plytaGlowna;
+    }
 }
